@@ -1,0 +1,7 @@
+.characterGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    gap: 50px;
+    padding: 40px;
+    justify-content: center;
+}

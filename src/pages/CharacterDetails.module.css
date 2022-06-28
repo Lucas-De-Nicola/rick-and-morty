@@ -1,0 +1,19 @@
+.detailsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+}
+
+.detailsImg{
+    border-radius: 15px;
+}
+
+.detailsCharacter{
+    font-size: 1.5rem;
+}
