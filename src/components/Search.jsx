@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import { useQuery } from "../utils/useQuery";
 
 export function Search() {
-    const [searchText, setSearchText] = useState("");
+    const [searchText, setSearchText] = useState("Smith");
     const history = useHistory();
     const query = useQuery();
     const search = query.get("search");
@@ -16,7 +16,7 @@ export function Search() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push("/?search=" + searchText);
+        history.push("/character/?name=" + searchText);
     } 
 
     return (

@@ -4,7 +4,8 @@ import { LandingPage } from "./pages/LandingPage";
 import { CharacterDetails } from "./pages/CharacterDetails";
 
 function App() {
-  return ( <Router>
+  return ( 
+    <Router>
       <header> 
         <Link to="/">
           <h1 className={styles.title}> Rick and Morty </h1>
